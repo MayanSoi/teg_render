@@ -211,6 +211,7 @@ def plot_system_fidelity_dcc(dfs, filenames):
 global_files_data = {}
 
 app = dash.Dash(__name__)
+server = app.server
 
 app.layout = html.Div([
     html.H1("TEG Thermal Cycling Analyzer", style={"textAlign": "center"}),
