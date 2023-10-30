@@ -292,4 +292,4 @@ def on_point_click(click_data, contents, filenames):
     return performance_curve_fig, system_fidelity_fig
 
 if __name__ == '__main__':
-    app.run_server(debug=True, port = 8065)
+    app.run_server(debug=True)
